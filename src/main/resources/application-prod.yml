@@ -1,0 +1,7 @@
+spring:
+  cloud:  #云配置
+    config:
+      uri: http://localhost:8888   #config的url
+      name: Xboot-zuul     #git仓库配置文件中的name
+      label: master       #分支
+      profile: prod        #开发环境的Profile
